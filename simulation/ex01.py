@@ -1,4 +1,4 @@
-# 게임 개발(시뮬레이션)
+# 게임 개발
 n, m = map(int,input().split())
 x, y, direction = map(int, input().split())
 data = []
