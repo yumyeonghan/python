@@ -1,5 +1,4 @@
 # 외벽 점검
-# 외벽 점검
 from itertools import permutations
 
 def solution(n, weak, dist):
