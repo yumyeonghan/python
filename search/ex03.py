@@ -29,7 +29,6 @@ while q:
     for i in range(4):
         nx = 행 + dx[i]
         ny = 열 + dy[i]
-    
         if 0 <= nx < n and 0 <= ny < n and data[nx][ny] == 0:
             data[nx][ny] = 종류
             q.append((종류, time + 1, nx, ny))
